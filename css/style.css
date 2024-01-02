@@ -97,9 +97,9 @@ section{
 .align-item-center{
     align-items: center;
 }
-.hidden{
+/* .hidden{
     display: none !important;
-}
+} */
 .sec-padding{
     padding: 80px 0;
 }
