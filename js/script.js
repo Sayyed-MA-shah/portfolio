@@ -4,9 +4,9 @@ window.addEventListener("load", () =>{
     /*----------page loader---------*/ 
     document.querySelector(".page-loader").classList.add("fade-out");
     setTimeout(() =>{
-    document.querySelector(".page-loader").computedStyleMap.display = "none";
+    document.querySelector(".page-loader").style.display = "none";
 
-    },600)
+    },600);
 });
 
 /*---------   Toggle Navbar----------*/
